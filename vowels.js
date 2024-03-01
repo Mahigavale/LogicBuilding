@@ -3,7 +3,7 @@ i/p=> I eat pineapple.
 
 o/p=> J FBt pJnFBpplB.
 
-hint: replace the vowel with theadjacent consotant.
+hint: replace the vowel with the adjacent consonant.
 */
 
 let str=" i eat pineapple.";
