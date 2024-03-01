@@ -5,7 +5,7 @@ if number is greater than 26 then the o/p must be number is
 greater than 26.
 */
 
-let numbers=[1,3,5,6,7,8,17,21];
+let numbers=[1,3,5,6,7,8,17,26];
 
 let letters='abcdefghijklmnopqrstuvwxyz';
 let arrl=letters.split('');
@@ -14,9 +14,15 @@ let arrl=letters.split('');
 //lets try foreach.
 
 function numvalue(n)
-{
+{  
+    if(n==27)
+    {
+        return"this number is greater than 26";
+    }
+    else{
     let c=n-1;
     return (arrl[c]);
+    }
 }
 
 //numbers.forEach(numvalue);
